@@ -1,0 +1,16 @@
+{
+  "name": "mpv-electron",
+  "description": "A minimal example of using libmpv inside of Electron via FFI.",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "electron src/main.js"
+  },
+  "dependencies": {
+    "koffi": "^2.8.9"
+  },
+  "devDependencies": {
+    "electron": "20.3.8"
+  },
+  "main": "dist-electron/main.js"
+}
